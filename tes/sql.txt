@@ -1,0 +1,38 @@
+create database penerbanganAmsterdam
+use penerbanganAmsterdam
+
+create table Maskapai(
+kode_Maskapai char (5)primary key,
+nama_Maskapai varchar(60))
+go
+create table Keberangkatan(
+kode_Keberangkatan int identity(1,1)primary key,
+kode_Maskapai char(5) foreign key references Maskapai(kode_maskapai),
+Keberangkatan Varchar(100),
+Ketibaan Varchar(100),
+Jam_keberangkatan Char(10),
+Jam_Ketibaan Char(10),
+Lama_perjalanan Char(20),
+Hari_keberangkatan varchar(50),
+Hari_Ketibaan varchar(50))
+go
+create table tarif(
+No_Tarif int identity(1,1) primary key,
+Tujuan varchar (100),
+Hari char(20) check(hari in('senin','selasa','rabu','kamis','jumat','sabtu','minggu')),
+Kelas varchar(50) check(Kelas in('Economi','Business Class','Excekutif','VIP')), 
+Harga varchar(100))
+
+
+
+insert into Maskapai values('CI74','China Airlines')
+insert into Maskapai values('CI761','China Airlines')
+
+insert into Keberangkatan values('GA89','Amsterdam Airport','Jakarta Soekarno-Hatta Airport','15:45','11:20','13h 35 m','Rabu, 08 Nov 2017','Kamis, 09 Nov 2017')
+insert into Keberangkatan values('GA184','Jakarta Soekarno-Hatta Airport','Kualanamu International Airport','09:00','11:25','2h 25 m','Jumat, 10 Nov 2017','Jumat, 10 Nov 2017')
+
+insert into tarif values('Amsterdam Airport - Jakarta Soekarno-Hatta','kamis','Economi','Rp.5.740.000,00')
+insert into tarif values('Amsterdam Airport - Taipei Taiwan Taoyuan International','kamis','Economi','Rp.8.778.000,00')
+
+select * from Keberangkatan where Keberangkatan='Amsterdam Airport' or Keberangkatan='Taipei Taiwan Taoyuan International'
+select * from tarif where Tujuan='Amsterdam Airport - Jakarta Soekarno-Hatta'

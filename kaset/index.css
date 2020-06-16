@@ -1,0 +1,121 @@
+*{
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            font-family: OpenSans-Regular;
+            color: white;
+        }
+        header{
+            margin-bottom: 10px;
+            background-color: #266596;
+            color: #bbdcf6;
+            text-align: center;
+            padding: 20px;
+        }
+        form{
+            width: 40%;
+            margin-top: 10px;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        form input{
+            font-family: OpenSans-Regular;
+            color: #266596;
+            border: none;
+            outline: none;
+            background: none;
+            border-bottom: #266596 solid 1px;
+            margin: 8px;
+            width: 100%;
+            padding: 8px;
+        }
+        table{
+            font-family: OpenSans-Regular;
+            background: #266596;
+            color: white;
+            margin: auto;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+        table th {
+            padding: 15px 10px;
+            background: #266596;
+            color: white;
+        }
+
+        table tr {
+        text-align: center;
+        }
+        table td {
+        padding: 15px;
+        }
+        table tr:hover td {
+        background: #f2f2f2;
+        color: black;
+        }
+        input[type=text] {
+          width: 100px;
+          -webkit-transition: width .35s ease-in-out;
+          transition: width .35s ease-in-out;
+        }
+        input[type=text]:focus {
+          width: 250px;
+        }
+        input[type=number] {
+          width: 75px;
+          -webkit-transition: width .35s ease-in-out;
+          transition: width .35s ease-in-out;
+        }
+        input[type=number]:focus {
+          width: 200px;
+        }
+        input[type=date] {
+          width: 100px;
+          -webkit-transition: width .35s ease-in-out;
+          transition: width .35s ease-in-out;
+        }
+        .groove {
+            border-style: groove;
+        }
+        .button {
+          width: auto;
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+
+        .button5 {
+          background-color: #bbdcf6;
+          color: #266596;
+          border: 2px solid #266596;
+        }
+
+        .button5:hover {
+          background-color: #266596;
+          color: white;
+        }
+        .container{
+            opacity: 0.9;
+            background-color: #bbdcf6;
+            margin: auto;
+            width: 60%;
+            padding-bottom: 1em;
+        }
+        body{
+            background-image: url('bioskop1.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        input::-webkit-input-placeholder{
+            color: #266596;
+        }

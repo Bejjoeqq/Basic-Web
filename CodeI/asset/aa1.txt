@@ -1,0 +1,30 @@
+1.      Teknologi Generasi Awal / Zero Generation (0G)
+telepon umum biasa yang biasa digunakan oleh radio untuk berkomunikasi
+2.      Teknologi Generasi Pertama (1G)
+ponsel generasi pertama
+3.      Teknologi Generasi Kedua (2G)
+sudah bisa digunakan sms,mms,mail, dan transfer data dengan kecepatan lambat dan terbatas
+4.      Teknologi Generasi Dua Setengah (2.5G)
+transfer data lebih cepat dan luas
+5.      Teknologi Generasi Ketiga (3G)
+kecepatan lebih tinggi sehingga bisa dipergunakan untuk video call  
+6.      Teknologi Generasi Keempat (4G)
+teknologi ini hanya bisa dipakai transfer data dengan kecepatan yang sangat tinggi dan tidak bisa dipergunakan untuk telepon atau sms
+
+aplikasi program mobile : android studio,eclipese,visual studio xamarin,basic 4 android, aide ide
+bahasa mobile : c++,kotlin,pyhton,java
+
+perkembangan os
+1. generasi 1 masih lebih banyak pekerjaan dilakukan tidak dengan rangkaian
+2. sudah mulai dilakukan dengan 1 rangkaian
+3. multi tasking muncul di generasi ini
+4. OS sudah memiliki tampilan GUI
+5. akan bisa menggabungkan 2 os berbeda
+
+macam os di mobile
+blackberry,android,apple,windows
+
+perkembangan android
+android os dari masa ke masa menggunakan huruf pertama dari makanan dan berurutan
+contohnya yg pertama
+cupcake,donut hingga sekarang generasi pie

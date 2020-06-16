@@ -1,0 +1,24 @@
+<?php
+$b=$_POST['a'];
+$b1=$_POST['a1'];
+function aa($b,$b1)
+{
+	if($b%2==0)
+	{
+	echo"Genap</br>";
+	for($a=$b;$a<=$b1;$a+=2)
+		{
+			echo"$a</br>";
+		}
+	}
+	else
+	{
+	echo"Ganjil</br>";
+		for($a=$b;$a<=$b1;$a+=2)
+		{
+			echo"$a</br>";
+		}
+	}
+}
+aa($b,$b1);
+?>

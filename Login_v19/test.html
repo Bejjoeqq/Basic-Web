@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Tooltip */
+  .test + .tooltip > .tooltip-inner {
+    background-color: #73AD21;
+    color: #FFFFFF;
+    border: 1px solid green;
+    padding: 15px;
+    width: 1000px;
+    font-size: 20px;
+  }
+  /* Tooltip on bottom */
+  .test + .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 5px solid blue;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <a class="test" href="#" data-toggle="tooltip" data-placement="bottom" title="ssssssssssssszczczsczsczsc!">Top</a>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+</body>
+</html>

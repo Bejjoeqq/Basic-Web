@@ -1,0 +1,9 @@
+<php?
+function aa()
+{
+echo"Hello woo";
+}
+
+aa();
+
+?>
